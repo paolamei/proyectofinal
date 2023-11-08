@@ -1,7 +1,7 @@
 .image-container {
   position: relative;
   overflow: hidden;
-  border: 2px solid #11683f;
+  border: 2px solid #079e58;/* cambio de color*/
   border-radius: 10px; 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
   transition: transform 0.3s ease; 
