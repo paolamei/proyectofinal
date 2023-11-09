@@ -1,4 +1,27 @@
-navbar
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #079e58;/* cambio de color*/
+  border-radius: 10px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.3s ease; 
+
+
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease; 
+}
+
+.image-container:hover {
+  transform: scale(1.05); 
+}
+
 img
 body {
   background: #fff;
@@ -40,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #18d26e;
+  background: #12b35d; /*CAMBIO DE COLOR*/
   width: 150px;
   height: 50px;
   border-radius: 60px;
@@ -1795,7 +1818,7 @@ section {
   padding-top: 0;
 }
 #footer .footer-top .footer-links ul a {
-  color: #eee;
+  color: #f3e7e7;  /* cambio de color*/
 }
 #footer .footer-top .footer-links ul a:hover {
   color: #18d26e;
@@ -1825,7 +1848,7 @@ section {
   cursor: pointer;
 }
 #footer .footer-top .footer-newsletter input[type=submit]:hover {
-  background: #13a456;
+  background: #0fac58;/* cambio de color*/
 }
 #footer .copyright {
   text-align: center;
