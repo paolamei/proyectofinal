@@ -1847,7 +1847,7 @@ section {
   cursor: pointer;
 }
 #footer .footer-top .footer-newsletter input[type=submit]:hover {
-  background: #13a456;
+  background: #0fac58;/* cambio de color*/
 }
 #footer .copyright {
   text-align: center;
