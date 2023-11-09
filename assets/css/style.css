@@ -1817,7 +1817,7 @@ section {
   padding-top: 0;
 }
 #footer .footer-top .footer-links ul a {
-  color: #eee;
+  color: #f3e7e7;  /* cambio de color*/
 }
 #footer .footer-top .footer-links ul a:hover {
   color: #18d26e;
