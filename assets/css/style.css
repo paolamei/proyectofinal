@@ -1,3 +1,4 @@
+navbar
 img
 body {
   background: #fff;
@@ -116,8 +117,8 @@ h1, h2, h3, h4, h5, h6 {
   background: transparent;
 }
 #header.header-scrolled {
-  background-image: radial-gradient(circle at 68.3% 118.3%, #edff55 0, #d5fc5a 10%, #bcf65f 20%, #a2ee64 30%, #88e468 40%, #6cd86c 50%, #4fcc6f 60%, #2dc173 70%, #00b776 80%, #00ae7a 90%, #00a77f 100%);
-  height: 60px;
+  background: linear-gradient(90deg, rgba(236,237,44,1) 0%, rgba(124,253,29,1) 13%, rgba(0,128,10,1) 55%);
+ height: 60px;
 }
 #header .logo {
   font-size: 34px;
@@ -207,7 +208,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #18d26e;
+  color: #18d231;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
